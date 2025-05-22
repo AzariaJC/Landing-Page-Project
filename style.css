@@ -91,7 +91,8 @@ button {
 .content-2 {
     display: flex;
     flex-direction: column;
-    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .content-3 {
     display: flex;
@@ -135,6 +136,73 @@ button {
     font-size: 36px;
     color: #1F2937;
     display: flex;
-    margin-bottom: 50px;
+    margin: 50px;
     justify-content: center;
+}
+/*everything above this line is the hero section and information section */
+.quote-box {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    margin-top: 5px;
+}
+/*lines 143 to 164 are the testimonal/quote section*/
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 5px;
+}
+.cta-heading {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cta-text {
+    color: #F9FAF8;
+    font-size: 15px;
+}
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+.cta-right {
+    display: flex;
+    margin-left: auto;
+}
+/* lines 143 - 196 are the call to action */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.footer-text {
+    color: #F9FAF8;
+    text-align: center;
 }
