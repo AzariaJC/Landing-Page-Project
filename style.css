@@ -61,6 +61,7 @@ button {
 .left-hero {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -90,24 +91,24 @@ button {
 .content-2 {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin: 100px;
 }
 .content-3 {
     display: flex;
     flex: 1;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* max-width: 100%; */
 }
-.card {
+.card { 
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    justify-content: center;
     flex-wrap: wrap;
     width: 155px;
-    align-items: center;
+    text-align: center;
+    flex: auto;
+   
 }
 .card-image img {
     max-width: 100%;
@@ -120,9 +121,20 @@ button {
     flex: 1, 1, auto;
     width: 225px;
     height: 225px;
+    justify-content: center;
 }
 .text {
     display: flex;
-    align-items: center;
+    padding: 10px;
+    flex: auto;
+    max-width: 200px;
+}
+.information-header-text {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    margin-bottom: 50px;
     justify-content: center;
 }
